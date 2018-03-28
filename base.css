@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+}
+nav.nav1{
+	display: flex;
+	justify-content: center;
+}
+
+a.black-text{
+	font-weight: bolder; 
+}
+.menu{
+	position: absolute;
+	right:120px;
+	top:5px;
+}
+div.black-text{
+	font-size:3em;
+	font-weight: bolder;
+}
+div.grey-text{
+	font-size:2em;
+	font-weight: bolder;
+}
+div.link ul{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+div.link li{
+	padding-right:5px; 
+}
+div.slider img{
+	background-size:cover;
+}
+#home{
+	width:100%;
+	height:100vh;
+}
+#education{
+	width:100%;
+	height:100vh;
+}
+#hobbies{
+	width: 100%;
+	height:180vh;
+}
+
+#work{
+	width:100%;
+	height:160vh;
+}
+#projects{
+	width: 100%;
+	height:130vh;
+}
+#contact{
+	width: 100%;
+	height:100vh;
+}
+
+
+
+
+@media screen and (max-width: 780px){
+ #education{
+ 	height:155vh;
+ }
+#work{
+ 	height:235vh;
+ }
+ #hobbies{
+ 	height: 350vh;
+ }
+ #home{
+ 	height: 120vh;
+ }
+ #projects{
+ 	height:150vh;
+ }
+}
