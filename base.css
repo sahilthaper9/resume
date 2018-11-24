@@ -46,6 +46,10 @@ div.slider img{
 	width: 100%;
 	height:180vh;
 }
+#skill{
+	width:100%;
+	height:100vh;
+}
 
 #work{
 	width:100%;
@@ -73,6 +77,8 @@ div.slider img{
  #hobbies{
  	height: 350vh;
  }
+#skill{
+ 	height: 350vh;
  #home{
  	height: 120vh;
  }
